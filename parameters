@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo  $1 $2 $3
+
+if [ $# -ne 3 ];then
+echo "Error,not required parameters given"
+else
+args=("$@")
+echo ${args[0]} ${args[1]} ${args[2]}
+fi
