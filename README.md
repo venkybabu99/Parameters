@@ -1,1 +1,1 @@
-# Parameters
+Write a small script that will take 3 parameters in any order. -A 100 -B 110 -C 120. It can also come as -C 120 -A 100 -C 110. You should check for all parameters and print error if missing. Setup github gist or repo
