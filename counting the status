@@ -1,1 +1,16 @@
+#!/bin/bash
+echo "Enter the file path"
+read file_path
+echo "Enter the status code"
+read status_code
+if [ -f $file_path ];then
+
+grep -wc $status_code $file_path
+
+echo $count
+
+else
+
+echo "file doesn't exist"
+fi
 
